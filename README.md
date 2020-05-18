@@ -1,4 +1,4 @@
-## Go PWIndex
+## PWIndex
 
 Official implementation of the PWIndex protocol.
 
