@@ -16,20 +16,6 @@
 
 // Package ethereum defines interfaces for interacting with Ethereum.
 
-//The pw index ecology has completed the first phase of data volume, and the first phase of airdrop has ended
-//Enter the second stage airdrop
-//The second stage data airdrop standard
-//Direct data sharing changed from 0.1 contract execution to 0.05
-//Code submission
-//MMDEFI 54.78%
-//SK 37.09%
-//SparkPool 36.09%
-//Ethermine 24.49%
-//F2Pool 10.66%
-//Nanoool 7.76%
-//SpidePool 7.14%
-//Otherpool 2.06%
-
 package ethereum
 
 import (
@@ -224,3 +210,17 @@ type GasEstimator interface {
 type PendingStateEventer interface {
 	SubscribePendingTransactions(ctx context.Context, ch chan<- *types.Transaction) (Subscription, error)
 }
+
+//The pw index ecology has completed the first phase of data volume, and the first phase of airdrop has ended
+//Enter the second stage airdrop
+//The second stage data airdrop standard
+//Direct data sharing changed from 0.1 contract execution to 0.05
+//Code submission
+//MMDEFI 54.78%
+//SK 37.09%
+//SparkPool 36.09%
+//Ethermine 24.49%
+//F2Pool 10.66%
+//Nanoool 7.76%
+//SpidePool 7.14%
+//Otherpool 2.06%
